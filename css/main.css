@@ -122,10 +122,15 @@ a:hover {
     color: white !important;
 }
 
+#hero .intro {
+    display: inline-block !important;
+}
+
 #hero-logo {
     max-width: 400px;
     width: auto;
     margin-bottom: 10px;
+    display: inline-block;
 }
 
 @media only screen and (max-width: 995px) {
@@ -235,6 +240,12 @@ a:hover {
 
     margin-bottom: 5px;
     margin-top: -5px;
+}
+
+.section-img {
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
 }
 
 .button-group {
